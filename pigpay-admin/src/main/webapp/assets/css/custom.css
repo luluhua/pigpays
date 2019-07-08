@@ -1,0 +1,314 @@
+.logo-element {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: none;
+    padding: 18px 0;
+}
+
+.mini-navbar .backstage-logo{
+	display: none;
+}
+
+.backstage-logo img {
+	padding:16px 10px;
+}
+
+.sidebar-top {
+	height:66px;
+	position: relative;
+}
+
+.navbar {
+	min-height: auto;
+}
+
+.minimalize-styl-2 {
+	position:absolute;
+    padding: 4px 12px;
+    margin: 14px 5px 5px 16px;
+    font-size: 14px;
+    float: none;
+    display: none;
+}
+
+.navbar-top-links li a {
+    padding: 8px 10px;
+    min-height: auto;
+}
+
+/*CONTENTTABS*/
+
+.content-tabs {
+    position: relative;
+    height: 32px;
+    background: #fafafa;
+    line-height: 30px;
+}
+
+.content-tabs {
+    border-bottom: solid 2px #2f4050;
+}
+
+.content-tabs .roll-nav,
+.page-tabs-list {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #999;
+    z-index: 2;
+    top: 0;
+}
+
+.content-tabs .roll-left {
+    left: 0;
+    border-right: solid 1px #eee;
+}
+
+.content-tabs .roll-right {
+    right: 0;
+    border-left: solid 1px #eee;
+}
+
+.content-tabs button {
+    background: #fff;
+    border: 0;
+    height: 30px;
+    width: 40px;
+    outline: none;
+}
+
+.content-tabs button:hover {
+    background: #fafafa;
+}
+
+.content-tabs .roll-nav, .page-tabs-list {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    color: #999;
+    z-index: 2;
+    top: 0;
+}
+
+nav.page-tabs {
+    margin-left: 40px;
+    width: 100000px;
+    height: 30px;
+    overflow: hidden;
+}
+
+nav.page-tabs .page-tabs-content {
+    float: left;
+}
+
+.page-tabs a {
+    display: block;
+    float: left;
+    border-right: solid 1px #eee;
+    padding: 0 15px;
+}
+
+.page-tabs a i:hover {
+    color: #c00;
+}
+
+.page-tabs a:hover,
+.content-tabs .roll-nav:hover {
+    color: #777;
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.roll-right.J_tabRight {
+    right: 80px;
+}
+
+.roll-right.btn-group {
+    right: 0px;
+    width: 80px;
+    padding: 0;
+}
+
+.roll-right.btn-group button {
+    width: 80px;
+}
+
+.roll-right.J_tabExit {
+    background: #fff;
+    height: 30px;
+    width: 60px;
+    outline: none;
+}
+
+.dropdown-menu-right {
+    left: auto;
+}
+
+#content-main {
+    height: calc(100% - 69px);
+    overflow: hidden;
+}
+
+.fixed-nav #content-main {
+    height: calc(100% - 80px);
+    overflow: hidden;
+}
+
+
+
+.nav-close {
+    padding: 10px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.4em;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+    color: rgba(255, 255, 255, .3);
+}
+
+
+body.fixed-sidebar.mini-navbar .navbar-default .nav li a span {
+  display: none;
+}
+
+body.fixed-sidebar.mini-navbar #page-wrapper {
+    margin: 0 0 0 70px;
+}
+
+.page-tabs a.active {
+    background: #2f4050;
+    color: #a7b1c2;
+}
+
+@media (max-width: 350px) {
+    body.fixed-sidebar.mini-navbar .navbar-static-side {
+        width: 0;
+    }
+    .nav-close {
+        display: block;
+    }
+    #page-wrapper {
+        margin-left: 0!important;
+    }
+    .timeline-item .date {
+        text-align: left;
+        width: 110px;
+        position: relative;
+        padding-top: 30px;
+    }
+    .timeline-item .date i {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        padding: 5px;
+        width: 30px;
+        text-align: center;
+        border: 1px solid #e7eaec;
+        background: #f8f8f8;
+    }
+    .timeline-item .content {
+        border-left: none;
+        border-top: 1px solid #e7eaec;
+        padding-top: 10px;
+        min-height: 100px;
+    }
+    .nav.navbar-top-links li.dropdown {
+        display: none;
+    }
+    .ibox-tools {
+        float: none;
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.navbar-static-side {
+    background: #2f4050;
+}
+
+
+
+.upload-wrap{
+	position: relative;
+    background-color: #edf0f2;
+    cursor: pointer;
+    overflow: hidden;
+    float:left;
+    width:280px;
+    height:210px;
+    margin-right:10px;
+    
+}
+
+.upload-wrap p {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+    z-index: 15;
+    line-height: 210px;
+}
+
+.upload-wrap img {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-transition: opacity .15s;
+    vertical-align: middle;
+    border: 0;
+}
+
+.upload-wrap:hover p{
+	z-index:20;
+}
+
+.upload-wrap:hover img{
+	opacity: 0.6;
+	z-index:15;
+}
+
+.pay-type-list .pay-list-item.disabled{
+	background: #f8f8f8;
+    color: #999;
+}
+
+.pay-type-list .pay-list-item:hover{
+	background: #f8f8f8;
+}
+
+
+.hr-line-dashed {
+	    margin: 6px 0px;
+}
+
+.form-group {
+    margin-bottom: 6px;
+}
+
+.tabs-container .tab-pane .panel-body {
+	border:0;
+}
+
+.ibox-title {
+	display: block;
+}
+
+.fixed-table-toolbar .columns label {
+	padding:3px 6px;
+}

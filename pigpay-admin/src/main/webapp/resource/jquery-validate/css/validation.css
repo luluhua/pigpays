@@ -1,0 +1,25 @@
+
+/* 
+    验证 错误提示
+*/
+#field { margin-left: .5em; float: left; }
+br { clear: both; }
+input.error { border: 1px solid red; }
+label.error {
+	background: url('../images/unchecked.gif') no-repeat;
+	padding-left: 16px;
+	margin-left: .3em;
+	color: #ff2814;
+	float:none !important;
+	font-size: 11px;
+	background-size: 13px 13px;
+	background-position: 1px 1px;
+	margin-bottom: 0px;
+	line-height: 16px;
+}
+label.valid {
+	background: url('../images/checked.gif') no-repeat;
+	display: block;
+	width: 14px;
+	height: 14px;
+}
